@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f5f8;
+}
+
+
+nav {
+  height: 70px;
+  margin: 0px 20px ;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-width: 90%;
+  border-bottom: 1px rgba(128, 128, 128, 0.432) solid;
+  align-items: center;
+}
+
+nav div img {
+  height: 50px;
+
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  padding: 5px 10px;
+  color: slategrey;
+  list-style: none;
+}
+
+.menu ul li:hover {
+  background-color: orangered;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.tittle {
+  height: 100px;
+  margin: 0px 20px;
+  border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
+  text-align: center;
+}
+
+.title_principal {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.title_second {
+  font-size: 30px;
+  color: rgba(128, 128, 128, 0.9)
+}
+
+.carousel {
+  height: 370px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.carousel a {
+  text-decoration: none;
+}
+
+.carousel_consultor {
+  background-color: white;
+  border: 1px  rgba(128, 128, 128, 0.432) solid ;
+  margin: 25px 10px 20px 10px;
+}
+.carousel_consultor h3 {
+  color: blue;
+}
+
+.carousel_training {
+  background-color: white;
+  border: 1px  rgba(128, 128, 128, 0.432) solid ;
+  margin: 25px 10px 20px 10px;
+}
+.carousel_training h3 {
+  color: aquamarine;
+}
+
+.carousel_analysis {
+  background-color: white;
+  border: 1px  rgba(128, 128, 128, 0.432) solid ;
+  margin: 25px 10px 20px 10px;
+}
+.carousel_analysis h3 {
+  color: yellow;
+}
+
+.carousel_investigation {
+  background-color: white;
+  border: 1px  rgba(128, 128, 128, 0.432) solid ;
+  margin: 25px 10px 20px 10px;
+}
+.carousel_investigation h3 {
+  color: tomato;
+}
+
+.carousel_tittle {
+  padding: 10px 10px 15px 10px;
+  margin: 0px 10px;
+  border-bottom: 1px  rgba(128, 128, 128, 0.432) solid ;
+}
+
+.carousel img {
+  width: 100%;
+  height: 60%;
+}
+
+.carousel p {
+  margin: 10px 0px 0px 10px;
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.9);
+}
+
+.part {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.part h3 {
+  font-size: 30px;
+  border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
+}
+
+.part div {
+  width: 30%;
+  padding: 0px 10px;
+}
+
+.links {
+  width: 100%;
+}

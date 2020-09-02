@@ -4,64 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyect3</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-  <nav>
-    <div>
-      <img src="" alt="">
+  <header class="conteinerNav">
+    <nav>
+      <div>
+        <img src="./style/images/logo.png" alt="">
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="/"><p>Inicio</p></a>
+          </li>
+          <li>
+            <a href="/"><p>Acerca</p></a>
+          </li>
+          <li>
+            <a href="/"><p>Servicios</p></a>
+          </li>
+          <li>
+            <a href="/"><p>Producto</p></a>
+          </li>
+          <li>
+            <a href="/"><p>Contacto</p></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="containerTittle">
+    <div class="tittle">
+      <h1 class="title_principal">Soluciones corporativas</h1>
+      <h2 class="title_second">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
     </div>
-    <div class="menu">
-      <ul>
-        <li>
-          <a href="/"><p>Inicio</p></a>
-        </li>
-        <li>
-          <a href="/"><p>Acerca</p></a>
-        </li>
-        <li>
-          <a href="/"><p>Servicios</p></a>
-        </li>
-        <li>
-          <a href="/"><p>Producto</p></a>
-        </li>
-        <li>
-          <a href="/"><p>Contacto</p></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="tittle">
-    <h1 class="title_principal">Soluciones corporativas</h1>
-    <h2 class="title_second">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
   </div>
   <div class="carousel">
     <div class="carousel_consultor">
       <a href="/">
-        <img src="" alt="">
-        <h3>Consuoría</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="./style/images/hands.PNG" alt="">
+        <h3 class="carousel_tittle">Consuoría</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
       </a>
     </div>
-    <div class="training">
+    <div class="carousel_training">
       <a href="/">
-        <img src="" alt="">
-        <h3>Formación</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="./style/images/plant.PNG" alt="">
+        <h3  class="carousel_tittle">Formación</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
       </a>
     </div>
-    <div class="analysis">
+    <div class="carousel_analysis">
       <a href="/">
-        <img src="" alt="">
-        <h3>Análisis</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="./style/images/proyect.PNG" alt="">
+        <h3  class="carousel_tittle">Análisis</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
       </a>
     </div>
-    <div class="investigation">
+    <div class="carousel_investigation">
       <a href="/">
-        <img src="" alt="">
-        <h3>Investigación</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="./style/images/clock.PNG" alt="">
+        <h3  class="carousel_tittle">Investigación</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
       </a>
     </div>
   </div>
@@ -73,20 +77,21 @@
     </div>
     <div class="news">
       <h3>Noticias Recientes</h3>
-      <div class="recentNews">
-        <div class="recent">
+      <article class="recentNews parts">
+        <article class="recent">
           <h4>Publicada: 09.09.2012</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, dolorum exercitationem et tempore neque veniam nam nemo dicta saepe.</p>
-        </div>
-        <div class="recent1">
+        </article>
+        <article class="recent1">
           <h4>Publicada: 08.09.2012</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, dolorum exercitationem et tempore neque veniam nam nemo dicta saepe.</p>
-        </div>
-      </div>
+        </article>
+      </article>
       <button>Más noticias</button>
     </div>
     <div class="services">
-      <div class="links">
+      <h3>Nuestros Servicios</h3>
+      <section class="links">
         <a href="/">> Consultoria Gerencial</a>
         <a href="/">> Análisis Regulatorio de Politicas</a>
         <a href="/">> Investigación de Mercado</a>
@@ -94,7 +99,7 @@
         <a href="/">> Regulción de Soporte</a>
         <a href="/">> Análisis de Riesgos</a>
         <a href="/">> Formación General</a>
-      </div>
+      </section>
       <button>Leer más</button>
     </div>
   </div>

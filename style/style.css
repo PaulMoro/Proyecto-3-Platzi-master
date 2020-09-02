@@ -125,9 +125,10 @@ li a {
 }
 
 .part {
-  padding: 0px 20px;
+  margin: 0px 20px 50px 20px;
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
 }
 
 .part h3 {
@@ -137,9 +138,26 @@ li a {
 
 .part div {
   width: 30%;
+  height: 400px;
   padding: 0px 10px;
+  
 }
 
-.links {
-  width: 100%;
+.part button {
+  background-color: rgb(76, 75, 75);
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }
+
+.greeting p {
+  display: block;
+  margin-top: 15px;
+  text-align: justify;
+  line-height: 20px;
+}
+

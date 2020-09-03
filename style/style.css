@@ -5,10 +5,11 @@
 
 body {
   background-color: #f2f5f8;
+  font-family: 'Rubik', sans-serif;
 }
+/* init header and navigation bar */
 
-
-nav {
+header {
   height: 70px;
   margin: 0px 20px ;
   padding: 10px 0px;
@@ -19,7 +20,7 @@ nav {
   align-items: center;
 }
 
-nav div img {
+header div img {
   height: 50px;
 
 }
@@ -43,24 +44,31 @@ nav div img {
 li a {
   text-decoration: none;
 }
+/* finish heder and navegation bar*/
 
-.tittle {
+/* init tittels*/
+.containerTittle {
   height: 100px;
   margin: 0px 20px;
   border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
   text-align: center;
 }
 
-.title_principal {
+/* Nosotros utilizaremos el separados de secciones diseñado por nosotros (border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;), ya que si tulizamos <hr> iria de lado a lado la linea y no como aparece en el ejercicio
+ */
+
+.containerTittle_principal {
   font-size: 50px;
   margin-top: 10px;
 }
 
-.title_second {
+.containerTittle_second {
   font-size: 30px;
   color: rgba(128, 128, 128, 0.9)
 }
+/* finish tattles */
 
+/* init main */
 .carousel {
   height: 370px;
   padding: 0px 20px;
@@ -123,41 +131,61 @@ li a {
   font-size: 14px;
   color: rgba(128, 128, 128, 0.9);
 }
+/* finish main */
 
-.part {
+/* init section  */
+.ourWork {
   margin: 0px 20px 50px 20px;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
 }
 
-.part h3 {
+.ourWork h3 {
   font-size: 30px;
   border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
 }
 
-.part div {
+.ourWork__greeting, .ourWork__news, .ourWork__services{
   width: 30%;
   height: 400px;
   padding: 0px 10px;
-  
+  display: grid;
+  grid-template-rows: 80% 20%;
+/*   utilizamos grid para acomodar los botones de manera automatica para todos al mismo tiempo */
 }
 
-.part button {
+.ourWork button {
+  width: 130px;
+  height: 45px;
   background-color: rgb(76, 75, 75);
   border: none;
   color: white;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 14px;
+  grid-row: 2 / span 1;
 }
 
-.greeting p {
+.ourWork p {
   display: block;
   margin-top: 15px;
   text-align: justify;
   line-height: 20px;
 }
+
+.recentNew {
+  width: 100%;
+}
+
+.content {
+  grid-row: 1 / span 1;
+}
+
+.ourWork__services a {
+  display: block;
+  padding: 5px;
+}
+
 

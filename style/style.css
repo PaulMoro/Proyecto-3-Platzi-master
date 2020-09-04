@@ -7,6 +7,11 @@ body {
   background-color: #f2f5f8;
   font-family: 'Rubik', sans-serif;
 }
+
+li a {
+  text-decoration: none;
+}
+
 /* init header and navigation bar */
 
 header {
@@ -31,19 +36,17 @@ header div img {
 }
 
 .menu ul li {
-  padding: 5px 10px;
-  color: slategrey;
+  padding: 5px 15px;
   list-style: none;
+  color: black;
 }
 
 .menu ul li:hover {
   background-color: orangered;
   color: white;
-}
-
-li a {
   text-decoration: none;
 }
+
 /* finish heder and navegation bar*/
 
 /* init tittels*/
@@ -142,17 +145,9 @@ li a {
 }
 
 .ourWork h3 {
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 1px rgba(128, 128, 128, 0.432) solid ;
-}
-
-.ourWork__greeting, .ourWork__news, .ourWork__services{
-  width: 30%;
-  height: 400px;
-  padding: 0px 10px;
-  display: grid;
-  grid-template-rows: 80% 20%;
-/*   utilizamos grid para acomodar los botones de manera automatica para todos al mismo tiempo */
+  padding-bottom: 10px;
 }
 
 .ourWork button {
@@ -161,7 +156,6 @@ li a {
   background-color: rgb(76, 75, 75);
   border: none;
   color: white;
-  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
@@ -172,20 +166,37 @@ li a {
   display: block;
   margin-top: 15px;
   text-align: justify;
-  line-height: 20px;
+  line-height: 150%;
 }
 
-.recentNew {
-  width: 100%;
+.ourWork__greeting, .ourWork__news, .ourWork__services{
+  width: 30%;
+  height: 500px;
+  padding: 0px 10px;
+  display: grid;
+  grid-template-rows: 85% 15%;
+/*   utilizamos grid para acomodar los botones de manera automatica para todos al mismo tiempo */
 }
 
 .content {
   grid-row: 1 / span 1;
 }
 
-.ourWork__services a {
-  display: block;
-  padding: 5px;
+.ourWork__news__recent h4 {
+  margin: 10px 0px;
+  font-size: 14px;
 }
+
+.ourWork__services__links  li {
+  display: block;
+  padding: 10px;
+  list-style: none;
+}
+
+.ourWork a {
+  color: tomato;
+}
+
+/* finish section  */
 
 

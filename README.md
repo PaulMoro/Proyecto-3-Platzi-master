@@ -1,4 +1,4 @@
-#Proyect 2 Platzi Master
+# Proyect 2 Platzi Master
 
 Proyect is part Learning Path. Layout with html and CSS this page:
 
